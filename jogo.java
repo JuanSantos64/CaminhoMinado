@@ -27,9 +27,9 @@ public class jogo {
         Collections.shuffle(caminhoMinado);
         Collections.shuffle(caminhoMinado);
         ArrayList<String> caminhoMinadoUsuario = new ArrayList<>();
-        for (int i = 0; i < caminhoMinado.size(); i++) {
-            caminhoMinadoUsuario.add("_ ");
-        }
+            for (Integer caminhoMinado1 : caminhoMinado) {
+                caminhoMinadoUsuario.add("_ ");
+            }
         
         int pontos = 0;
         System.out.println("");
