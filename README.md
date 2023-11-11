@@ -47,6 +47,11 @@ O jogo contém essa mecânica para que o usuário não possa escolher a mesma po
         for (String string : caminhoMinadoUsuario) {
             System.out.print(string);
         }
+ for (int i = 0; i < caminhoMinadoUsuario.size(); i++) {   
+                    if(caminhoMinado.get(i) == -1){
+                        caminhoMinadoUsuario.set(i,"B ");
+                    }
+                }
 ```
 
 O jogo ao final ou ao perder, mostra ao usuário seus pontos feitos, numeros de bombas escolhidas e o caminho minado visualmente.
